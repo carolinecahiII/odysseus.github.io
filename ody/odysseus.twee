@@ -1,0 +1,796 @@
+:: StoryTitle
+odysseus
+
+
+:: StoryData
+{
+  "ifid": "D3EBD1F3-C50E-44D4-BD53-06A895D64C8D",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "start",
+  "tag-colors": {
+    "title": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: DREAM DEEPER {"position":"1600,1000","size":"100,100"}
+you grip onto the pleasure of unconsciousness and attempt to steal a few more moments of rest.
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|let go.]]
+<<elseif $diceRoll <= 10>>
+   [[continue.|as if a thousand years ago]]
+<<elseif $diceRoll <= 20>>
+   [[continue.|as if a thousand years ago]]
+<</if>>
+
+
+:: LET THE FEELING ENVELOP YOU {"position":"1475,2025","size":"100,100"}
+you sink deeper into the vision and feel your phantom self fall into ory's gentle arms. the smell of her perfume is blindingly real and sends your mind somersaulting deeper into unreality. 
+
+the softness of her breast seems to absorb you like a snowbank, pulling you in futher and further until you feel yourself enter a separate place altogether...
+
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|do you hear that singing?]]
+<<elseif $diceRoll <= 10>>
+   [[continue.|do you hear that singing?]]
+<<elseif $diceRoll <= 20>>
+   [[continue.|get it together bill.]]
+<</if>>
+
+
+:: LUNGE AT SCOTT {"position":"550,1825","size":"100,100"}
+<img src="images/scared.png">
+
+you throw yourself towards scott, your thin, ornithologist arms ramming the pick towards his heart.
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|drop the icepick]]
+<<elseif $diceRoll <= 10>>
+    [[continue.|kill scott]]
+<<elseif $diceRoll <= 20>>
+    [[continue.|kill scott]]
+<</if>>
+
+
+:: STAY HERE... {"position":"1600,1850","size":"100,100"}
+<img src="images/ory1.png">
+
+you linger for a moment in the doorway of your past. ory laces her fingers through yours, but you feel no weight. she is wisps of smoke now, nothing more than a dream.
+
+you feel a dull heaviness in your skull and the wind quiets around you. your hands and feet are numb. you try to steel yourself against a slipping, tumbling feeling...
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|LET THE FEELING ENVELOP YOU]]
+<<elseif $diceRoll <= 10>>
+   [[continue.|scrawl a letter]]
+<<elseif $diceRoll <= 20>>
+   [[continue.|dig around in the sled supplies]]
+<</if>>
+
+
+:: SURRENDER {"position":"1600,2200","size":"100,100"}
+<img src="images/evans.png">
+
+everything around you snaps to blackness, as if someone has dropped a heavy curtain on your head. you're somewhere else. a metallic ringing begins somewhere far away, growing slowly to an ear splitting pitch.
+
+you clap your hands to your ears, shut your eyes with all your strength and call out to god. 
+
+<em>jesus save me. jesus save me from this place. thought i walk through the valley of the shadow of death i shall not fear</em>
+
+when you open your eyes, evans is there. sitting across from you in the blackness. his hollowed, once round face aligned with yours but looking at nothing in particular. 
+
+you notice his hands and nose are black as coal. the back of his head covered in dried blood.
+
+"you left me, ted. left me to die." his mouth doesn't move but the words emerge from somewhere, the sound like rusted gears grinding.
+
+[[face him]]	
+
+
+:: StoryInit {"position":"1100,425","size":"100,100"}
+<<cacheaudio "campsong" "music/tavern.m4a">>
+<<cacheaudio "happysong" "music/henry.mp3">>
+
+
+:: TRY NOT TO THINK ABOUT IT {"position":"1200,1600","size":"100,100"}
+you try to shake that awful memory. 
+
+<<set $diceRoll to random(20) + 1>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|think about it.]]
+<<elseif $diceRoll <= 10>>
+    [[continue.|think about it.]]
+<<elseif $diceRoll <= 20>>
+    [[continue.|continue]]
+<</if>>
+
+
+:: TRY TO FEED OATES {"position":"1000,900","size":"100,100"}
+you kneel beside oates' cot a whisper a bit to him, checking to see if he's lucid enough to chew and swallow. 
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|feed oates fresh seal meat.]]
+<<elseif $diceRoll <= 10>>
+   [[continue.|feed oates fresh seal meat.]]
+<<elseif $diceRoll <= 20>>
+   [[continue.|feed oates.]]
+<</if>>
+
+
+:: as if a thousand years ago {"position":"1400,900","size":"100,100"}
+ <<audio campsong play>>
+ <img src="images/hut.png">
+
+you see yourself in the hut, as if a thousand years ago. it's warm and aglow with a thousand kerosene lamps.
+
+the smell of sacred baconfat hangs in the air. there are plates of cornmeal bread and thick slices of bacon to go with them. hot tea and whiskey mingle together in steaming tankards. 
+
+men raise their voices in merriment and sing as card games are played and lost and lewd jokes are exchanged. cherry, barely a whisker on his face, laughs and it feels like the walls will collapse with his joy. 
+
+osman, a handsome and loyal Siberian husky who will outlive you by nearly five years, curls at your feet, contently gnawing on a seal bone.
+
+scott, perched in a chair near his quarters, regards the scene with a peaceful grin and chews on his pipestem. 
+
+you are conquerers at the edge of the world. immortal frontiersmen. fools doomed to die.
+
+[[let go.]]
+
+
+:: autumn {"position":"1600,700","size":"100,100"}
+graduation. a thousand hands clapped upon your back. that long-lingering illness gone, your lungs full of cold, clean air. 
+
+the flavor of sweet, thick summer wine mingles with unkillable joy. a beautiful girl in the darkest corner of a pub. the godlike hubris only a young man with everything to lose can know.
+
+<div id="color:red;">[[DREAM DEEPER]]</div>
+[[let go.]] 
+
+
+:: begin {"position":"1300,500","size":"100,100"}
+in the amniotic comfort of that space between sleep and consciousness, you remember everything. 
+
+your life idles by you slowly in clumps of emotion and sensation like algae in a glen. the smooth river stones that comprise your existence are within reach, and you cast a hand out to touch them.
+
+[[summer]] -- [[spring]]  -- [[autumn]]
+
+
+:: blackness {"position":"75,2200","size":"100,100"}
+free hearts, free foreheads—you and I are old;
+old age hath yet his honour and his toil;
+death closes all: but something ere the end,
+some work of noble note, may yet be done,
+not unbecoming men that strove with GODS.
+
+[[begin]]
+
+
+:: breathe deeply {"position":"1275,2050","size":"100,100"}
+<img src="images/bowers.png">
+
+your hands tremble as you don your overcoat. bowers reaches out, a small flask of liquor in his hand. 
+
+you nod and him and take a grateful swig. it's good, spiced rum that crawls warmly down your throat and makes you feel a bit more human.
+
+[[get to work]]
+
+
+:: continue {"position":"600,1400","size":"100,100"}
+<img src="images/scott1.png">
+
+you watch scott scribble into his diary, humming tunelessly. your party reached the south pole days ago, only to find a norwegian flag snapping in the wind. amundsen's team had beat you to it. all this death for nothing. something in scott had changed then, he had taken on this sickly sweet positivity you knew would be your end.
+
+scott rises in silence and snaps to attention. 
+
+"alright boys, it's a brand new day," he exclaims, an artificial enthusiam bellowing out from his barrel chest. you and bowers regard him with as much loyalty as you can muster.
+
+"birdie, see to oates and collect a bit of snow for water, we're drinking like camels it seems.
+
+wilson, we need to redistribute the weight in that pack. we have half a day's walk to the next depot and then it'll be bacon and biscuits for us all."
+
+[[get to work]]
+[[question his command]]
+
+
+
+:: dig around in the sled supplies {"position":"1925,1725","size":"100,100"}
+<img src="images/discovering.png">
+
+you jump in place, shaking your limbs in some childlike attempt to regain control of your body, you mind, or whatever else is plaguing you.
+
+before you, the sled supplies are stacked haphazardly. scott wants you to reorganize them to alleviate weight issues during your next trek. 
+
+the wind whips you hood back and you notice the clouds above you are forming just as they did before the last storm. 
+
+the storm that killed evans, you remember. you doubt that this sled will be pulled by living men again.
+
+[[reorganize the supplies]]
+
+
+
+:: do you hear that singing? {"position":"1200,2325","size":"100,100"}
+<img src="images/evans.png">
+
+you rub your eyes desperately. when they open, you're no longer in the sheet-white antarctic. a silvery light beams from the heavens above you directly where you stand. your ears are buzzing from that horrific sound, that grinding, tinny, whining drone.
+
+then, all of a sudden, it's quiet. 
+
+you turn your gaze to the light above and marvel. the aurora borealis weaves across the polar sky like a ballerina...
+
+you hear evan's voice, soft now, in the quiet of your mind.
+
+"you need only take it, ted. take it and leave this place. come see me."
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|blackness]]
+<<elseif $diceRoll <= 10>>
+   [[continue.|blackness]]
+<<elseif $diceRoll <= 20>>
+   [[continue.|get it together bill.]]
+<</if>>
+
+
+:: drop the icepick {"position":"1000,1900","size":"100,100"}
+clairty floods your mind and you drop the icepick. it clatters on the frozen earth at your feet. 
+
+these men are your friends. you might not be doomed. focus. be an englishman.
+
+scott rests his hand on the pistol holstered at his hip. 
+
+"feeling alright, old chap?"
+
+[[last fucking chance, bill]]
+[[leave this awful place]]
+
+
+
+:: escalate {"position":"500,1625","size":"100,100"}
+"it's over scott. we failed. in a few days they'll send some lads out to find us. we should rest."
+
+scott pauses. he turns slowly to face you, then moves to stand eye to eye. his sickly breath on your face.
+
+"mutiny is punishable by death, old chap." he says quietly, almost a joke.
+
+[[get to work]]
+[[pick up an icepick.]]
+
+
+:: face him {"position":"1650,2350","size":"100,100"}
+<img src="images/evans.png">
+
+you're breathless and you realize that you're sobbing. evans stares blankly at you, his eyes a cruel husk of the man that laughed like a church bell.
+
+"i'm <em>SORRY</em> edgar... i'm so so sorry." you snivel. 
+
+his decaying hands reach for yours and cradle them gently.
+
+"do you hear the singing, ted? it won't be long now."
+
+[[do you hear that singing?]] 
+
+
+:: feed oates fresh seal meat. {"position":"975,1050","size":"100,100"}
+<img src="images/oats.png">
+
+you reach for a tightly packed piece of fresh meat and find there's even less available than you thought. oates will be dead in a matter of hours without this, and you after him if you don't reach another supply depot.
+
+you place the cut onto the end of your knife and hold it briefly over the small kerosene flame in the center of the tent until its edges are seared.
+
+you crouch beside oates and hold the meat to his feverish lips. in a moment of sudden clarity he quiets, raises a hand to the food and pushes it away, staring darkly into your eyes.
+
+gallant to the end.
+
+[[continue]] 
+
+
+:: feed oates. {"position":"775,1075","size":"100,100"}
+<img src="images/oats.png">
+
+you reach for a tightly packed piece of fresh meat and find there's even less available than you thought. oates will be dead in a matter of hours without this, and you after him if you don't reach another supply depot.
+
+you place the cut onto the end of your knife and hold it briefly over the small kerosene flame in the center of the tent until its edges are seared.
+
+you crouch beside oates and hold the meat to his feverish lips. he opens two rhuemy eyes and regards you for a moment, then takes it into his mouth and chews slowly.
+
+you know it won't be enough.
+
+[[continue]]
+
+
+:: get a grip {"position":"2000,2275","size":"100,100"}
+<img src="images/oates-death.png">
+
+you trudge back to the tent and do your best to pretend whatever just happened was the result of a vitamin deficiency or boredom. sweat beads on your brow and freezes almost instantly.
+
+when you pull back the canvas door, you face Oates, up and out of bed. his eyes are rheumy white, his skin like bone. he's in just his wool underlayers and his fisherman's hat.
+
+behind him, bowers and scott look just as confused as you are.
+
+"titus, my friend? are you feeling alright?" you croak through your ice-covered beard.
+
+[[you already know the answer, don't you.]]
+
+
+:: get it together bill. {"position":"1775,2050","size":"100,100"}
+<img src="images/wilson.png">
+
+through some miracle of self discipline, you pull yourself out of...wherever you were. you're breathing hard, beaded sweat already freezing on your brow.
+
+[[dig around in the sled supplies]] 
+
+
+:: get to work {"position":"1175,1900","size":"100,100"}
+<img src="images/discovering.png">
+
+on with a few layers and out into the wilds. pulling back the tent flap reveals a flat white wall of horizon and a gut punch of frozen wind. you steel yourself and begin the short trek to your supply sleds. 
+
+the storm blew in a few more layers of fresh snow over the night, it seems. the soft powder swallows your boot. each step feels like ten as you drag your heavy, starving form through the drift. 
+
+
+[[push on]]
+
+
+
+:: kill scott {"position":"700,1750","size":"100,100"}
+<img src="images/scared.png">
+
+you can't remember what happens next. a flash of light, a groan.
+
+then it's you, on your knees, and scott lying flat on his back. his breath still, his eyes open and staring at nothing.
+
+bowers grabs your shoulders. "it had to be done, ed. i'm glad it was you. poor bastard lost his mind. we'd die out here if he kept going."
+
+you can barely hear him over a strange, metallic din roaring in your inner ear. 
+
+he continues. "come on mate, let's get some grub together. it'll be alright. they'll understand. you're a good man."
+
+"yes..." you whisper. "yes."
+
+[[get to work]]
+
+
+:: last fucking chance, bill {"position":"1050,2175","size":"100,100"}
+<img src="images/scott2.png">
+
+"yes.... yes, I'm alright. i'm just....i'm starving. i'm so tired." you murmur.
+
+scott claps you on the back. 
+
+"i understand, wilson. you're alright, man. you're just fine.
+
+
+<<set $diceRoll to random(20)>>
+
+You rolled a $diceRoll.
+
+<<if $diceRoll == 1>>
+   [[continue.|blackness]]
+<<elseif $diceRoll <= 10>>
+    [[continue.|breathe deeply]]
+<<elseif $diceRoll <= 20>>
+     [[continue.|breathe deeply]]
+<</if>>
+
+
+:: leave this awful place {"position":"825,2000","size":"100,100"}
+you reach for scott's pistol, and after a brief struggle, wrest it from his hand. bowers screams and tries to pry you apart.
+
+you press the cold metal to your temple and pull.
+
+[[blackness]]
+
+
+:: let go. {"position":"1200,1000","size":"100,100"}
+ <<audio campsong stop>>
+ <img src="images/wilson.png">
+
+<em>17 march, 1912. ross ice shelf, antarctica.</em>
+
+the fog of dreaming lifts and your circumstances reoccur to you. with consciousness comes the return of gnawing, desperate, white hot hunger.
+
+the cold sun, a million miles away, is bright enough to light the tent despite the tempest outside. antarctic wind rips relentlessly against your shelter's canvas walls, begging to be let in. begging to swallow you like it swallows everything. 
+
+like it swallowed evans.
+
+beside you, captain scott stirs just enought to creak the wood frame of his cot. you consider waking him. sleep is rare, sacred even, and the only respite from your shared circumstances for the forseeable future.
+
+and the boys. oates and bowers. you watch with relief as their chests rise and fall beneath layers of sealskin and wool blankets.
+
+[[think about evans.]]
+[[wake up scott.]]
+[[wake up oates.]]
+[[wake up bowers.]]
+
+
+:: oriana... {"position":"1350,1900","size":"100,100"}
+<img src="images/ory.png">
+
+the idea that a woman could have ever existed seems like a far away fantasy, much less one like his ory.
+
+your wife was -- is -- incredibly beautiful, unusually tall, disarmingly intelligent, and altogether absolutely singular. she was a naturalist herself. 
+
+she would love it here. well, under better circumstances.
+
+though your gaze is fixed on the wasteland, you can see her sitting in your shared kitchen, patiently stripping the buds from a bushel of yarrow. she'll boil them in linseed oil and make a wonderful topical solution to rub on your inevitably achey hands, tired from writing reports.
+
+a ribbon of chestnut curls runs down the nape of her neck onto her chest, and she brushes it away gently. you watch her eyes, like light on a lake, flick from task to task with razor focus.
+
+in the memory, you watch yourself walk into the room and behind her, kissing her head gently. 
+
+"how are you, mrs. bill?" you inquire. she laughs, that windchime laugh.
+
+[[dig around in the sled supplies]]
+[[STAY HERE...]]
+
+
+
+:: pick up an icepick. {"position":"400,2000","size":"100,100"}
+you reach for your leather roll of tools and pick up an icepick. its long steel point glimmers in the latern light.
+
+bowers drops his snow pail and stares at you. scott looks you dead in the eye and breathes hard, waiting for what comes next.
+
+[[LUNGE AT SCOTT]] 
+[[drop the icepick]] 
+
+
+:: push on {"position":"1375,1725","size":"100,100"}
+<img src="images/discovering.png">
+
+the howling of wind through icy cliffs and frozen hills broadcasts a deafening sound directly into your skull.
+
+the sleds are thankfully close by, and you swipe an arm over them to clear the snow. your instruments are first in view, placed on top to avoid the breaking of glass beakers and pipettes. 
+
+you were--  are -- a scientist. don't forget it edward. remember the kestrels in cheltenham. the sparrows that swooped in the margins of your letters to oriana.
+
+[[dig around in the sled supplies]]
+[[oriana...]] 
+
+
+:: question his command {"position":"700,1550","size":"100,100"}
+you hear the antarctic wind whipping against the canvas walls. even by the warmth of your kerosene lamps, it's brutal. you know the ice wind outside will shred the soft skin of your face to bits. 
+
+you also know there's no way you're making it to that depot alive, pack or not.
+
+you see bowers, to your right, dutifully getting to work on his task. his shaking hands, red and rough, struggle to button his overcoat.
+
+you decide you'd rather die in your sleeping bag than frozen upright in the pale, scientist's soft hands gripping rough rope.
+
+"sir, maybe it's better if we wait for the storm to pass. visibility is low and oates cannot travel in this state."
+
+scott clicks his tongue. "not to worry, my friend. we're close, I know it. we just need to push over this ledge, and we won't get there unless our supplies are moveable. out you go."
+
+[[escalate]]
+[[get to work]]
+
+
+:: read rules {"position":"1500,375","size":"100,100"}
+background
+<hr>
+
+ODYSSEUS is a CYOA game. you play as Edward 'Uncle Bill' or 'Ted" Wilson, an ornithologist, naturalist, and physician. the other two crewmen are henry roberts 'birdie' bowers and lawrence 'titus' oates. you are part of Capt. Robert Falcon Scott's final expedition to the south pole, where all five men involved lost their lives.
+
+rules
+<hr>
+
+this game uses a dice roll mechanic to determine whether certain actions are or are not successful. 
+
+when the player attempts certain actions, a 20 sided dice is rolled and the result of the roll spells the success or failure of the action.
+
+for example, if the player chooses to lift something heavy:
+<ul>
+		<li>a roll of 1 would mean the character drops the item. </li>
+    	<li>a roll of 20 means the item is lifted with ease.</li>
+        <li>a roll in the middle means either middling success or failure depending on the task.</li>
+</ul>
+the number required to succeed on an action will not be visible to the player.
+
+times in this story where a dice roll determines a result are marked by links in <div style="color: goldenrod">ALL CAPS.</div>
+
+[[begin]]
+
+
+:: regard scott {"position":"1050,1400","size":"100,100"}
+<img src="images/scott1.png">
+
+scott's coat clings to his thinning frame. his determined hands scribble violently into his diary, likely unfeeling. his patchy beard hides how gaunt he's become in the last week, having given up the majority of his rations to better feed you and the boys.
+
+we're fucked. he won't say it, but we're fucked. 
+
+you bury contempt for him under a think layer of dutiful english denial.
+
+he carries himself still with a military gallantry and a stubborn, almost delusional positivity. that aside, you can tell that evans' horrific end has broken something in him.
+
+
+[[TRY NOT TO THINK ABOUT IT]]
+
+
+
+:: reorganize the supplies {"position":"1850,2175","size":"100,100"}
+<img src="images/wilson.png">
+
+you start to pick up and replace various crates and equipment. a crate of bovril. one can of beans. a tin of treacle. all garbage given to the expedition by eager english businessmen with dreams of men eating their products at the end of the world.
+
+moving a satchel of samples you collected from the pole, you uncover evans' rucksack and freeze. moments pass and you're unable to move, but you don't know why.
+
+a cold feeling runs through your blood, as if something or someone is standing beside you.
+
+<<if $diceRoll == 1>>
+   [[continue.|SURRENDER]]
+<<elseif $diceRoll <= 10>>
+      [[continue.|SURRENDER]
+<<elseif $diceRoll <= 20>>
+   [[continue.|get a grip]]
+<</if>>
+
+
+:: rest. {"position":"1800,2300","size":"100,100"}
+you enter the tent wordlessly and collapse onto your cot. the kerosene fire is out, the fuel is gone. you look at bowers. he gazes back at you, then pulls his coat about him and closes his eyes.
+
+scott packs his pipe with tobacco and places it in his mouth, unlit.
+
+"a bit of rest, boys. while we wait for the storm to pass."
+
+you lay down and stare up at the billowing canvas ceiling. what comes next is not sleep, but something else. 
+
+a strange feeling you haven't encountered since ory was pressing hot cloths to your forehead in the tuberculosis word.
+
+[[SURRENDER]] 
+
+
+:: scrawl a letter {"position":"1725,1925","size":"100,100"}
+your mind snaps back to reality, but you can't shake the feeling of that vision. you drop to a seated position, sheltered by the sled supply pile, and produce your small leather notebook.
+
+in it you scrawl a quick epitaph for yourself, and a gentle goodbye.
+
+<em>‘To my Beloved Wife,
+
+‘Life has been a struggle for some weeks now on this return journey from the Pole… Today may be the last effort… I shall simply fall and go to sleep in the snow, and I have your little books with me in my breast pocket… God be with you – my love is as living for you as ever…’</em>
+
+[[dig around in the sled supplies]] 
+
+
+:: spring {"position":"1400,675","size":"100,100"}
+<img src="images/field.png">
+
+a boy, once more, in cheltenham. a field. you feel rushes under your belly and the splintered reeds pricking you through heavy wool. your sweater. forged by the deft, machinal hands of your mother, the April mud's cold wetness is no match for such armor.
+
+on your elbows with shallow breaths to keep a pair of binoculars steady. a kestrel appears, fussing with the branches of the lone dead cedar. with one soft hand, you scribble its likeness into your field notebook.
+
+then, a stormcloud of beating wings from the sky behind you. thousands twisting and swooping into endless kaleidoscopic shapes, alive and undulating like the sea. starlings.
+
+and then it's over.
+
+[[DREAM DEEPER]]
+[[let go.]]
+
+
+
+:: start {"position":"1025,275","size":"100,100"}
+the long day wanes: the slow moon climbs: the deep
+moans round with many voices.
+
+come, my friends,
+it is not too late to seek a newer world.
+
+push off, and sitting well in order smite
+the sounding furrows; 
+
+for my purpose holds
+to sail beyond the sunset, and the baths
+of all the western stars, 
+
+[[until i die.|title]] 
+
+
+:: summer {"position":"1200,700","size":"100,100"}
+<img src="images/sunset.png">
+
+oriana, in thin blue muslin. three years had passed since she ran circles around your wit in battersea. she had come to keep you company during the worst of your boughts with tuberculosis, without a worry she'd catch it herself.
+
+<div style="color: goldenrod">//Not one could equal Penelope for intrigue
+but in this case she intrigued beyond all limits.//</div>
+
+she lays her head in your lap at the edge of the pond, half asleep, idly stroking the shimmering gold band on your finger. the sun hangs just above the horizon, panting its last bit of strength. 
+
+you trace a curl behind her ear. in three weeks you will be aboard a steamer headed for the edge of the world. the sledging flag she sews for you will hang in the cathedral for a century after you die. 
+
+
+[[DREAM DEEPER]]
+[[let go.]] 
+
+
+
+:: think about evans. {"position":"1650,1525","size":"100,100"}
+<img src="images/evans.png">
+
+your mind drifts away from you for a moment. 
+
+you remember evans, smiling a ridiculous smile with a bottle of whiskey in his red fist. he had fallen comically into the water when trying to board the <em>terra nova</em> in new zealand, drunk as a fool.
+
+we left him behind. he begged us to and we left him. it's what he wanted. 
+
+abandoned in the unforgiving white expanse. the wind carried his agonized cries for what seemed like miles. 
+
+he had been the strongest man in your party, and with his death would come the unduly grueling work of lugging vital supplies with ever-weakening manpower.
+
+
+[[TRY NOT TO THINK ABOUT IT]] 
+[[think about it.]]
+
+
+:: think about it. {"position":"1175,1775","size":"100,100"}
+<img src="images/evans.png">
+
+the babbling. oh, the incomprehensible babbling that spilled from evans' lips once they return to him. nonsense interwoven with fragments of cosmic riddles, warnings of silvery demons and ghosts. blood dried and frozen on his forehead. 
+
+evans, once a great clydesdale of a man, now a vessel for the incomprehensible. you recall him shoveling down wheatcakes and black coffee, the coarse black hair on his arms, the pounding of his fist on a table when he laughed.
+
+you vividly remembers the mad gaze, the long nails, the screaming and moaning and writhing before he finally collapsed, his pale eyes locked on the strange undulating aurora in the night sky above.
+
+you will tell his wife that he died bravely, you decide.
+
+[[continue]]
+
+
+:: title [title] {"position":"1300,300","size":"100,100"}
+                           .    ODYSSEUS   .
+                           
+[[start      |begin]] -- [[ rules|read rules]]
+
+ <div id="cc">a human narrative by c.cahill</div>
+
+
+:: turn away. {"position":"925,1200","size":"100,100"}
+<img src="images/oats.png">
+
+you gently cover oates with his wool blanket. he writhes, eyes open, and whispers. 
+
+"the pale... silver... into the pale... "
+
+he doesn't seem to notice you're there at all. 
+
+[[continue]]
+
+
+:: wake up bowers. {"position":"1300,1250","size":"100,100"}
+<img src="images/bowers.png">
+
+you grip one of bowers' strong shoulders and he creaks awake.
+
+''morning birdie'', you say with a weak grin. he returns the expression and swings to his feet.
+
+bowers is 28, the youngest of your team. just a boy. he had been with you on that awful expedition to retrieve emperor penguin eggs, somehow just a year before. 
+
+short, scottish and handsome, bowers was, most days, the only thing keeping you all from letting in the cold and giving up.
+
+"another day in paradise, uncle bill." he smiles and begins pulling on various extra layers. his eyes are rheumy with hunger and exhaustion.
+
+[[continue]]
+
+
+:: wake up oates. {"position":"1150,1175","size":"100,100"}
+<img src="images/oats.png">
+
+you rise from your cot and press a hand to oates' back several times, seemingly with no effect. his eyes are pressed tightly together and he fusses, mumbling to himself.
+
+lifting his covers slightly you see that oates is soaked in sweat, bone white, and radiating a sickly heat. he's in the late stages of scurvy, the old devil that haunts all of you now. 
+
+as the expedition's surgeon, you know there are few treatments for such an advanced state. fresh seal meat, rich with vitamins and fat, seemed to help some. you know there's only a few scant pounds left in your supply pack.
+
+[[TRY TO FEED OATES]]
+[[feed oates fresh seal meat.]]
+[[turn away.]]
+
+
+:: wake up scott. {"position":"1450,1375","size":"100,100"}
+<img src="images/scott1.png">
+
+when you reach to wake up scott, you see he's already awake and scrawling in his diary. he catches your glance and bowers', and readies himself to give today's assignments.
+
+
+[[regard scott]]
+[[continue]]
+
+
+:: you already know the answer, don't you. {"position":"1925,2450","size":"100,100"}
+<img src="images/walking.png">
+
+oates stares straight ahead, through you. 
+
+'i am....i am just going outside, and may be some time.' 
+
+the wind picks up, and you feel new sheets of snow start to fall around you at speed. 
+oates clasps your shoulder, squeezes it, never dropping his vacant stare.
+
+"let him go, bill." scott says from inside the tent.
+
+you step aside and oates walks into the white vastness of an antarctic snowstorm in a single layer of clothing. 
+
+
+history will call him a brave man, indeed.
+
+[[rest.]]
+
+
+:: StoryStylesheet [stylesheet]
+body {
+  margin: 100;
+  background-color: #000;
+}
+
+#passages {
+  margin: 10% 5% 30%; 
+  padding: 0;
+  border: #fff double 0.5em;
+  border-radius: 1em;
+  overflow: auto; 
+  padding: 50px;
+}
+
+.passage {
+  width:80%; 
+  font-family: monospace, "courier", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  background-color: #000;
+  color: #eee;
+}
+
+.passage img {
+  display: block;
+  margin: 0 auto;
+}
+
+#ui-bar {
+  display: none;
+}
+#passage-title{
+text-align: center;
+padding-left: 100px;
+  padding-top:100px;
+font-size:2em;
+}
+#passage-title a{
+  color:red;
+  font-size: 15px;
+  display: inline-block;
+  
+}
+#cc{
+  font-size: 10px;
+  padding-bottom:100px;
+}
+#passage-start{
+  text-align: center;
+  padding-left: 100px;
+  padding-top:30px;
+font-size:1em;
+}
+
